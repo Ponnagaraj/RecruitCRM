@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="org.test.AutomationTestCases">
+        <methods>
+          <include name="the_Application_Should_Allow_User_To_Enter_Corresponding_Data_To_The_Input_Field_In_The_Edit_Candidate_Section"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- org.test.AutomationTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
